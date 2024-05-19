@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Fitness Tracker</title>
+        <link rel="stylesheet" href="fitnessTracker.css">
+     </head>
+     <body>
+        <h1 class="main-heading">Fitness Tracker</h1>
+        <div class="container">
+            <h1 class="heading">Add a Workout</h1>
+            <div class="workoutType">
+                <h2 class="workout-type">Workout Type</h2>
+                <input type="text" id="workoutTypeInput">
+            </div>    
+            <div class="workoutduration">
+                <h3 class="workout-duration">Duration(minutes)</h3>
+                <input type="number" id="workoutDurationInput">
+            </div>
+            <button class="button" id="addButton" onclick="onAdd()">Add</button>
+            <p class="warning" id="warning">please fill both fields</p>
+            <h4 class="workout-log">Workout Log</h4>
+            <section id="listSection"></section>
+        </div>
+        <script src="fitnessTracker.js"></script>
+
+     </body>
+       
+</html>

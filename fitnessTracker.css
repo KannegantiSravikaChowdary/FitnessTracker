@@ -1,0 +1,123 @@
+.main-heading{
+    height:70px;
+    background-color:#d3f2dc;
+    width:100%;
+    display:grid;
+    place-items:center;
+    font-size:30px;
+}
+body{
+    background:linear-gradient(to bottom,#70e1f5,#ffd194);
+}
+.container{
+    margin:25px;
+    padding:25px;
+    background-color:#cfe2f3;
+    width:90%;
+    display:grid;
+    place-items:center;
+    border-radius:10px;
+    gap:5px;
+   
+}
+.heading{
+    font-size:28px;
+    font-weight:600;
+}
+.workoutType{
+    gap:5px;
+    display:grid;
+    place-items:center;
+}
+.workout-type{
+    font-weight:500px;
+    font-size:22px;
+}
+.workoutduration{
+    gap:4px;
+    display:grid;
+    place-items:center;
+}
+.workout-duration{
+    font-weight:500px;
+    font-size:22px;
+}
+#workoutTypeInput{
+    width:75vw;
+    border-radius:5px;
+    padding:7px 15px;
+    border:2px solid #c8c8c8cb;
+}
+#workoutDurationInput{
+    width:75vw;
+    border-radius:5px;
+    padding:7px 15px;
+    border:2px solid #c8c8c8cb;
+}
+.button{
+    background-color:#137ff2;
+    font-weight:400;
+    padding:8px 18px;
+    color:#ffffff;
+    border-radius:5px;
+    cursor:pointer;
+    border:none;
+}
+.warning{
+    opacity:0;
+    color:red;
+}
+.showwarning{
+    opacity:100%;
+    color:red;
+}
+.workout-log{
+    font-weight:600;
+    font-size:26px;
+    margin-top:2px;
+}
+.workout-item {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f9fafbce;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width:75vw;
+    float:left;
+    justify-content:space-between;
+}
+.workout-item span {
+    margin-right: 5px;
+}
+.workout-item .workoutType {
+    font-weight: bold;
+    font-size:18px;
+    float:left;
+}
+.edit-button {
+    margin-left: auto;
+    background-color: #137ff2;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    float:right;
+}
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    float:right;
+}
+#listSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
